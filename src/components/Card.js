@@ -32,7 +32,7 @@ function Card() {
   return (
     <article>
       <aside>
-        <h1>Questions And Answers About Login</h1>
+        <h1>React Accordion Drill Exercise</h1>
       </aside>
       <section>
         {data.map((item, index) => {

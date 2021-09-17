@@ -22,7 +22,7 @@ function QA({ title, content }) {
       <div className="buttonCont">
         <button className={activeState} onClick={changeState}></button>
       </div>
-      <div style={styles.content}>
+      <div className='content' style={styles.content}>
         <p>{content}</p>
       </div>
     </div>
